@@ -1,0 +1,50 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+.vscode/
+*.iml
+settings.json
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# Temp
+*.tmp
+*.bak
+*.orig
+
+# Build artifacts
+dist/
+build/
+out/
+*.tsbuildinfo
+node_modules/
+.bun/
+.turbo/
+target/
+*.rlib
+*.so
+*.dylib
+Cargo.lock
+**/*.rs.bk
+__pycache__/
+*.pyc
+.venv*/
+
+# Data files (too large)
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
